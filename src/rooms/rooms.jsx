@@ -60,9 +60,9 @@ export default function Rooms() {
             <Nav />
             <RoomParam />
             <div className='w-full h-full flex justify-center items-center'>
-                <div className='flex items-center flex-col'>
-                    <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
-                        <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                <div className='w-full flex items-center flex-col ' >
+                    <div className="w-11/12  bg-transparent shadow-none relative overflow-x-auto   sm:rounded-lg">
+                        <table className="w-full  rounded-3xl shadow-sm overflow-hidden text-sm text-left text-gray-500 dark:text-gray-400">
                             <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                                 <tr>
                                     <th scope="col" className="p-4">
